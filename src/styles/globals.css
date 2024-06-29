@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --background: #232323;
+    --text: #ffffff;
+
+    --gray-medium: #858585;
+    --gray-dark: #353535;
+
+    --purple: #8437b1;
+    --purple-hover: #9b49ca;
+
+    --green: #6bbe4e;
+    --green-hover: #84c56c;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+
+    background-color: var(--background);
+    color: var(--text);
+}
+
+#App {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+#App header,
+#App main,
+#App footer {
+    padding-inline: 4rem;
+}
+
+#App main {
+    flex-grow: 1;
+}
+
+#App header a.active {
+    color: #FFFFFF;
+    text-shadow: #9b49ca 0px 0px 5px, #9b49ca 0px 0px 10px, #9b49ca 0px 0px 15px, #9b49ca 0px 0px 20px, #9b49ca 0px 0px 30px, #9b49ca 0px 0px 40px, #9b49ca 0px 0px 50px, #9b49ca 0px 0px 75px;
+}

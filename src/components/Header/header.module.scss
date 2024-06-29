@@ -1,0 +1,23 @@
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.4rem;
+    border-bottom: 1px solid var(--gray-medium);
+
+
+    h6 {
+        font-size: 2rem;
+    }
+
+    ul{
+        display: flex;
+        gap: 1rem;
+    }
+
+    a{
+        color: var(--text);
+        font-size: 1.4rem;
+    }
+}
