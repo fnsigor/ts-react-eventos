@@ -162,7 +162,7 @@ const CreateEvent = () => {
                     <p>{errors.description?.message}</p>
                 </div>
 
-                <input type="submit" value={isPending ? 'Cadastrando...' : 'Cadastrar evento"'} disabled={isPending}/>
+                <input type="submit" value={isPending ? 'Cadastrando...' : 'Cadastrar evento'} disabled={isPending}/>
             </form>
         </div>
     );

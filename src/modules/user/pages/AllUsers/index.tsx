@@ -14,7 +14,7 @@ const AllEvents = () => {
     return (
         <section className={style.page}>
             
-            <h1>Eventos cadastrados</h1>
+            <h1>Usuários cadastrados</h1>
 
             {isPending ? (
                 <Spin />
