@@ -52,3 +52,38 @@
     color: #FFFFFF;
     text-shadow: #9b49ca 0px 0px 5px, #9b49ca 0px 0px 10px, #9b49ca 0px 0px 15px, #9b49ca 0px 0px 20px, #9b49ca 0px 0px 30px, #9b49ca 0px 0px 40px, #9b49ca 0px 0px 50px, #9b49ca 0px 0px 75px;
 }
+
+
+input, select, textarea{
+    background-color: var(--gray-dark);
+    font-size: 1.6rem;
+    padding: .4rem .6rem;
+    border-radius: 5px;
+    border: 1px solid var(--gray-medium);
+    color: var(--text);
+}
+
+label{
+    font-size: 1.4rem;
+}
+
+input, textarea{
+    transition: .150s;
+}
+
+input:focus, textarea:focus{
+    outline: 3px solid var(--purple);
+    border-color: var(--purple);
+}
+
+input[type="submit"]{
+    background-color: var(--purple);
+    font-weight: 600;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--purple-hover);
+}
+

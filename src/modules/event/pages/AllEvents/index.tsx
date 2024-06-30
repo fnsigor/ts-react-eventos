@@ -2,7 +2,7 @@ import React from "react";
 import style from "./page.module.scss";
 import { useQuery } from "@tanstack/react-query";
 import Spin from "../../../../components/Spin";
-import CardEvent from "../components/CardEvent";
+import CardEvent from "./components/CardEvent";
 import { getAllEvents } from "../../services/getAllEvents.services";
 
 const AllEvents = () => {
