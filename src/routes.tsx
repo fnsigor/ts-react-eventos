@@ -3,6 +3,7 @@ import AllEvents from './modules/event/pages/AllEvents'
 import App from './App'
 import AllUsers from "./modules/user/pages/AllUsers";
 import CreateEvent from "./modules/event/pages/CreateEvent";
+import CreateUser from "./modules/user/pages/CreateUser";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path:"criar-evento",
         element: <CreateEvent/>
+      },
+      {
+        path:"criar-usuario",
+        element: <CreateUser/>
       },
     ]
   }

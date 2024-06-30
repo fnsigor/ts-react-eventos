@@ -32,7 +32,7 @@ const Header = () => {
                     Cadastrar Eventos
                 </NavLink>
                 <NavLink
-                    to="/cadastrar-usuarios"
+                    to="/criar-usuario"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                     }
