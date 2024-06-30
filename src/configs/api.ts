@@ -1,10 +1,13 @@
-import axios from 'axios'
+import axios, { AxiosInstance } from 'axios'
 
-const config = {
+
+const axiosConfig = axios.create({
   baseURL: 'http://localhost:4000/',
-}
+  headers: {
+    "Content-Type": "application/json"
+  }
+})
 
-const axiosConfig = axios.create(config)
 
 axiosConfig.interceptors.response.use(
   (response) => {
@@ -12,4 +15,4 @@ axiosConfig.interceptors.response.use(
   }
 )
 
-export const apiConnection = axiosConfig
+export const api = axiosConfig

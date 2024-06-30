@@ -40,6 +40,12 @@
 
 #App main {
     flex-grow: 1;
+    
+    display: flex;
+}
+
+#App main > * {
+    flex-grow: 1;
 }
 
 #App header a.active {
